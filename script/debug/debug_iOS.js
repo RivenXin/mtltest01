@@ -1,0 +1,1 @@
+execCommand('mtl debug ios');

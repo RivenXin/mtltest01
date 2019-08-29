@@ -1,0 +1,15 @@
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["mtl.debug"],{
+
+/***/ "./src/platforms/h5/debug.js":
+/*!***********************************!*\
+  !*** ./src/platforms/h5/debug.js ***!
+  \***********************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("var __WEBPACK_AMD_DEFINE_RESULT__;\n\n/**\n * 该文件只用于说明 mtl.debug.js 数据结构，不实际使用。\n */\n!(__WEBPACK_AMD_DEFINE_RESULT__ = (function () {\n  'use strict';\n\n  var SUCCESS = 200;\n  var FAIL = 0;\n\n  return [{\n    api: 'getNetworkType',\n    result: function result() {\n      return {\n        data: {\n          networkType: 'wifi'\n        }\n      };\n    }\n  }, {\n    api: 'getLocation',\n    result: function result() {\n      var condition = false;\n      if (condition) {\n        return {\n          code: SUCCESS,\n          data: {\n            latitude: 45,\n            longitude: 45\n          }\n        };\n      }\n      // 支持自定义的 code\n      return {\n        code: FAIL,\n        message: 'Debug: error message'\n      };\n    }\n  }];\n}).call(exports, __webpack_require__, exports, module),\n\t\t\t\t__WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9zcmMvcGxhdGZvcm1zL2g1L2RlYnVnLmpzLmpzIiwic291cmNlcyI6WyJ3ZWJwYWNrOi8vL3NyYy9wbGF0Zm9ybXMvaDUvZGVidWcuanM/OTA5ZCJdLCJzb3VyY2VzQ29udGVudCI6WyIvKipcbiAqIOivpeaWh+S7tuWPqueUqOS6juivtOaYjiBtdGwuZGVidWcuanMg5pWw5o2u57uT5p6E77yM5LiN5a6e6ZmF5L2/55So44CCXG4gKi9cbmRlZmluZShmdW5jdGlvbiAoKSB7XG4gICd1c2Ugc3RyaWN0JztcblxuICBjb25zdCBTVUNDRVNTID0gMjAwO1xuICBjb25zdCBGQUlMID0gMDtcblxuICByZXR1cm4gW1xuICAgIHtcbiAgICAgIGFwaTogJ2dldE5ldHdvcmtUeXBlJyxcbiAgICAgIHJlc3VsdCgpIHtcbiAgICAgICAgcmV0dXJuIHtcbiAgICAgICAgICBkYXRhOiB7XG4gICAgICAgICAgICBuZXR3b3JrVHlwZTogJ3dpZmknXG4gICAgICAgICAgfVxuICAgICAgICB9XG4gICAgICB9XG4gICAgfSxcbiAgICB7XG4gICAgICBhcGk6ICdnZXRMb2NhdGlvbicsXG4gICAgICByZXN1bHQoKSB7XG4gICAgICAgIGNvbnN0IGNvbmRpdGlvbiA9IGZhbHNlO1xuICAgICAgICBpZiAoY29uZGl0aW9uKSB7XG4gICAgICAgICAgcmV0dXJuIHtcbiAgICAgICAgICAgIGNvZGU6IFNVQ0NFU1MsXG4gICAgICAgICAgICBkYXRhOiB7XG4gICAgICAgICAgICAgIGxhdGl0dWRlOiA0NSxcbiAgICAgICAgICAgICAgbG9uZ2l0dWRlOiA0NVxuICAgICAgICAgICAgfVxuICAgICAgICAgIH1cbiAgICAgICAgfVxuICAgICAgICAvLyDmlK/mjIHoh6rlrprkuYnnmoQgY29kZVxuICAgICAgICByZXR1cm4ge1xuICAgICAgICAgIGNvZGU6IEZBSUwsXG4gICAgICAgICAgbWVzc2FnZTogJ0RlYnVnOiBlcnJvciBtZXNzYWdlJ1xuICAgICAgICB9O1xuICAgICAgfVxuICAgIH1cbiAgXVxufSk7Il0sIm1hcHBpbmdzIjoiOztBQUFBOzs7QUFHQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUVBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFEQTtBQURBO0FBS0E7QUFSQTtBQVdBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUZBO0FBRkE7QUFPQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBRkE7QUFJQTtBQWxCQTtBQXFCQTtBQUFBIiwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///./src/platforms/h5/debug.js\n");
+
+/***/ })
+
+}]);
